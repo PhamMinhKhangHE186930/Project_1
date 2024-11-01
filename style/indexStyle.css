@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(247, 247, 229);
+    padding: 0;
+}
+
+/* Show dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Remove the caret icon since we're not using a toggle button */
+.dropdown-toggle::after {
+    display: none;
+}
+
+.main-content {
+    padding: 10px 10vw;
+}
+
+.navhover:hover {
+    background-color: rgb(1, 180, 229);
+}
+
+.navbar {
+    padding: 0;
+    background-color: rgb(2, 208, 226);
+}
+
+.navhover {
+    padding: 15px 15px;
+}
+
+.navbar-brand {
+    margin: auto;
+}
+
+.active{
+    background-color: rgb(1, 180, 229);
+}
