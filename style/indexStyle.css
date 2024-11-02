@@ -8,7 +8,18 @@ body{
     display: block;
 }
 
+.dropdown-menu2{
+    display: none;
+}
+
+.dropdown2:hover .dropdown-menu2 {
+    display: block;
+}
+
 /* Remove the caret icon since we're not using a toggle button */
+.dropdown-toggle2::after {
+    display: none;
+}
 .dropdown-toggle::after {
     display: none;
 }

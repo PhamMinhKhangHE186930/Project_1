@@ -8,7 +8,6 @@
     <link href="./bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="./style/indexStyle.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./img/logo.jpg">
-    <link href="./style/indexStyle.css" rel="stylesheet">
 </head>
 
 <body>
@@ -20,7 +19,7 @@
             <div class="navhover">
                 <a class="navbar-brand" href="./home.html">Trang chủ</a>
             </div>
-            <div class="navhover">
+            <div class="navhover active">
                 <div class="dropdown">
                     <a class="navbar-brand dropdown-toggle " href="./index.html" id="dropdownMenu2"
                         aria-expanded="false">
@@ -39,10 +38,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="navhover active">
+            <div class="navhover">
                 <div class="dropdown">
-                    <a class="navbar-brand dropdown-toggle" href="./muc2.html" id="dropdownMenu3"
-                        aria-expanded="false">
+                    <a class="navbar-brand dropdown-toggle" href="./muc2.html" id="dropdownMenu3" aria-expanded="false">
                         Phân phối nguồn lực
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
@@ -61,18 +59,40 @@
         </div>
     </nav>
 
-    <main class="main-content">
-        <div class="row">
-            <p class="col-md-10" style="font-size: 20px;">
-                Bản đồ sẽ đánh dấu và hiển thị các khu vực bị thiệt hại do thiên tai, mức độ thiệt hại được biểu thị
-                bằng màu sắc hoặc biểu đồ. Bản đồ sẽ chỉ ra các điểm tập trung dân cư, bệnh viện, trạm cứu thương,
-                trường học, và cơ sở hạ tầng quan trọng khác. Đánh dấu và hiển thị các điểm cần cứu trợ khẩn cấp như nơi
-                ẩn náu, trạm cứu thương tạm thời, điểm phân phát thực phẩm và nước uống
-            </p>
-            <img src="./img/map01.jpg" alt="map01">
+    <main class="container-fluid main-content">
+        <div>
+            <h1>Bản đồ tổng quan</h1>
+            <img src="./img/tong_quan_map.jpg" alt="ca_nhan_map">
         </div>
-    </main>
 
+        <!-- <div>
+            <h2 class="text-danger">Thông báo !!!</h2>
+            <h4 style="color: red;">Khu vực miền Trung:</h4>
+            <ul>
+                <li>
+                    <p><span class="text-primary fw-bold">Thừa Thiên Huế:</span>
+                        Mưa to đã làm lũ trên các sông Hương và
+                        sông Bồ vượt mức báo động 3, gây ngập lụt nhiều khu vực.
+                        (VTV)
+                    </p>
+                    <a href="https://vtv.vn/xa-hoi/mua-lu-gay-nhieu-thiet-hai-ve-nguoi-va-tai-san-o-khu-vuc-mien-trung-20231116051449618.htm"
+                        target="_blank" style="text-decoration: none;">Thông tin chi tiết</a>
+                </li>
+            </ul>
+            <h4 style="color: red;">Khu vực miền Bắc:</h4>
+            <ul>
+                <li>
+                    <p><span class="text-primary fw-bold">Cao Bằng:</span>
+                        Mưa lớn từ thượng nguồn đổ về, nước sông Cầu lên nhanh, gây ngập lụt cục bộ một số xã vùng
+                        trũng.
+                        (TUỔI TRẺ)
+                    </p>
+                    <a href="https://tuoitre.vn/lu-lut-chua-tung-co-o-mien-bac-cao-bang-van-con-31-nguoi-mat-tich-dang-no-luc-tim-kiem-20240910094207419.htm"
+                        target="_blank">Thông tin chi tiết</a>
+                </li>
+            </ul>
+        </div> -->
+    </main>
 </body>
 
 </html>
